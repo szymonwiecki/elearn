@@ -1,0 +1,31 @@
+{
+  "availableCourses": "Available Courses",
+  "loading.courses": "Loading courses...",
+  "seeMore": "See more",
+  "noThumbnail": "No thumbnail",
+  "noDescription": "No description.",
+
+  "error": {
+    "fetchingCourses": "Error loading courses",
+    "courseNotFound": "Course not found.",
+    "failedToFetch": "Failed to fetch course data.",
+    "loginFailed": "Login failed. Check your credentials.",
+    "registrationFailed": "Failed to register user."
+  },
+
+  "courseContent": "Course Content",
+  "shortName": "Krótka nazwa",
+  "description": "Opis",
+  "noResources": "No resources in this section.",
+  "backToCourses": "Back to courses",
+
+  "login": {
+    "title": "Log in",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Password",
+    "loginButton": "Log in",
+    "noAccount": "Don't have an account?",
+    "registerLink": "Register",
+    "logout": "Logout"
+  }
+}

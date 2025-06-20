@@ -1,0 +1,31 @@
+{
+  "availableCourses": "Dostępne kursy",
+  "loading.courses": "Ładowanie kursów...",
+  "seeMore": "Zobacz więcej",
+  "noThumbnail": "Brak miniatury",
+  "noDescription": "Brak opisu.",
+
+  "error": {
+    "fetchingCourses": "Błąd pobierania kursów",
+    "courseNotFound": "Nie znaleziono kursu.",
+    "failedToFetch": "Nie udało się pobrać danych kursu.",
+    "loginFailed": "Błąd logowania. Sprawdź dane.",
+    "registrationFailed": "Nie udało się zarejestrować użytkownika."
+  },
+
+  "courseContent": "Zawartość kursu",
+  "shortName": "Krótka nazwa",
+  "description": "Opis",
+  "noResources": "Brak zasobów w tej sekcji.",
+  "backToCourses": "Wróć do kursów",
+
+  "login": {
+    "title": "Zaloguj się",
+    "emailPlaceholder": "Email",
+    "passwordPlaceholder": "Hasło",
+    "loginButton": "Zaloguj",
+    "noAccount": "Nie masz jeszcze konta?",
+    "registerLink": "Zarejestruj się",
+    "logout": "Wyloguj"
+  }
+}

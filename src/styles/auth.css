@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #4e54c8, #8f94fb);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.auth-box {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.auth-box h2 {
+  margin-bottom: 20px;
+  color: #4e54c8;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+}
+
+.auth-box input:focus {
+  border-color: #4e54c8;
+  outline: none;
+  box-shadow: 0 0 8px rgba(78, 84, 200, 0.3);
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4e54c8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-box button:hover {
+  background-color: #3e42a3;
+}
+
+.auth-box p {
+  margin-top: 16px;
+  font-size: 14px;
+}
+
+.auth-box .link-button {
+  color: #4e54c8;
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.language-toggle {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  z-index: 10;
+}
+
+.language-toggle button {
+  background-color: #e5e7fa;
+  border: none;
+  padding: 6px 14px;
+  margin-left: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #4e54c8;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.language-toggle button:hover {
+  background-color: #d1d5f0;
+}
+
